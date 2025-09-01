@@ -1,0 +1,68 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo-container h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: #27ae60;
+}
+
+.language-selector {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.flag-icon {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.lang-btn:hover .flag-icon {
+    transform: scale(1.1);
+}
+
+.lang-btn.active .flag-icon {
+    box-shadow: 0 0 0 2px var(--color-primary);
+}
