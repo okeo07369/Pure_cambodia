@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem; /* Augmenté le padding vertical */
+    padding: 0.5rem 2rem;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: fixed;
@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    min-height: 120px; /* Réduit de 200px à 120px */
+    min-height: 80px; /* Réduit à 80px */
 }
 
 .logo-container {
@@ -25,11 +25,11 @@
 }
 
 .logo-container img {
-    height: 100px;  /* Réduit de 180px à 100px */
+    height: 60px;  /* Réduit à 60px */
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
-    max-width: 300px; /* Ajout d'une largeur maximale */
+    max-width: 200px; /* Réduit la largeur maximale */
 }
 
 .logo-container img:hover {
@@ -87,5 +87,5 @@
 
 /* Ajustement du padding du corps de page */
 body {
-    padding-top: 120px; /* Ajusté pour correspondre au nouveau min-height */
+    padding-top: 80px; /* Ajusté pour correspondre au nouveau min-height */
 }
