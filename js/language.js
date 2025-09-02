@@ -36,6 +36,7 @@ const translations = {
         mango_rage_highlight2: "Doux mais explosif",
         mango_rage_highlight3: "Fruité mais avec du tempérament",
         mango_rage_availability: "Disponible dans les bars partenaires de Phnom Penh 🍹",
+        mango_rage_degree: "30° d'alcool",
         
         // Obor Rosé
         obor_rose_title: "🌸 Obor Rosé",
@@ -60,7 +61,7 @@ const translations = {
     en: {
         home: "Home",
         cosmetics: "Cosmetic Oils",
-        spirits: "Craft Spirits",
+        spirits: "Crafted Spirits",
         mission: "Pure Cambodia is a company committed to promoting Cambodia's agricultural wealth. We develop healthy, ethical and environmentally friendly products in close collaboration with local communities.\n\nSpecializing in natural cosmetic oils and artisanal spirits, we combine traditional expertise with quality requirements to offer authentic, sustainable and responsible products.\n\nOur mission is to showcase the quality and diversity of Cambodian agricultural products to as many people as possible, both in local and international markets.",
         contact: "Contact Us",
         contact_cta: "To learn about our available range or become a partner",
@@ -93,6 +94,7 @@ const translations = {
         mango_rage_highlight2: "Sweet yet explosive",
         mango_rage_highlight3: "Fruity with attitude",
         mango_rage_availability: "Available across Phnom Penh 🍹",
+        mango_rage_degree: "30° alcohol",
         
         // Obor Rosé
         obor_rose_title: "🌸 Obor Rosé",
@@ -149,6 +151,7 @@ const translations = {
         mango_rage_highlight2: "ផ្អែមប៉ុន្តែខ្លាំង",
         mango_rage_highlight3: "មានរសជាតិផ្លែឈើ ជាមួយនឹងភាពរឹងមាំ",
         mango_rage_availability: "មាននៅតាមបារដៃគូនៅភ្នំពេញ 🍹",
+        mango_rage_degree: "ជាតិអាល់កុល ៣០°",
         
         // Obor Rosé
         obor_rose_title: "🌸 អុបរ រ៉ូសេ",
