@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    min-height: 200px; /* Augmenté pour le nouveau logo */
+    min-height: 120px; /* Réduit de 200px à 120px */
 }
 
 .logo-container {
@@ -25,10 +25,11 @@
 }
 
 .logo-container img {
-    height: 180px;  /* Augmenté de 140px à 180px */
+    height: 100px;  /* Réduit de 180px à 100px */
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
+    max-width: 300px; /* Ajout d'une largeur maximale */
 }
 
 .logo-container img:hover {
@@ -86,5 +87,5 @@
 
 /* Ajustement du padding du corps de page */
 body {
-    padding-top: 200px; /* Ajusté pour correspondre au nouveau min-height */
+    padding-top: 120px; /* Ajusté pour correspondre au nouveau min-height */
 }
