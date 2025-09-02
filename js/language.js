@@ -30,7 +30,7 @@ const translations = {
         
         // Mango Rage
         mango_rage_title: "🔥 Mango Rage",
-        mango_rage_tagline: "Liqueur artisanale made in Cambodia",
+        mango_rage_tagline: "Liqueur artisanale crafted in Cambodia",
         mango_rage_description: "Un mélange audacieux de mangues mûries au soleil, d'alcool de riz traditionnel et un peps désaltérant.",
         mango_rage_highlight1: "100% cambodgien, 100% caractère",
         mango_rage_highlight2: "Doux mais explosif",
@@ -54,7 +54,8 @@ const translations = {
         sacha_inchi: "Sacha Inchi",
         sacha_production: "Production de Sacha Inchi",
         sacha_seeds: "Graines de Sacha Inchi",
-        sacha_oil: "Huile de Sacha Inchi"
+        sacha_oil: "Huile de Sacha Inchi",
+        contact_email_text: "Notre email :"
     },
     en: {
         home: "Home",
@@ -86,19 +87,19 @@ const translations = {
         
         // Mango Rage
         mango_rage_title: "🔥 Mango Rage",
-        mango_rage_tagline: "Artisanal liqueur made in Cambodia",
-        mango_rage_description: "A bold blend of sun-ripened mangoes, traditional rice spirit, and a refreshing kick.",
+        mango_rage_tagline: "Artisanal liqueur crafted in Cambodia",
+        mango_rage_description: "A bold fusion of sun-ripened mangoes, traditional rice spirit, and a refreshing kick.",
         mango_rage_highlight1: "100% Cambodian, 100% character",
         mango_rage_highlight2: "Sweet yet explosive",
         mango_rage_highlight3: "Fruity with attitude",
-        mango_rage_availability: "Available in partner bars in Phnom Penh 🍹",
+        mango_rage_availability: "Available across Phnom Penh 🍹",
         
         // Obor Rosé
         obor_rose_title: "🌸 Obor Rosé",
         obor_rose_tagline: "The spirit of rice, the caress of a forbidden fruit",
-        obor_rose_description: "A clear, dry spirit that glides on the tongue with the elegance of a well-kept secret.",
+        obor_rose_description: "A clear, dry spirit that glides across the tongue with the elegance of a well-kept secret.",
         obor_rose_highlight1: "20°: smooth enough to seduce, lively enough to awaken",
-        obor_rose_highlight2: "To be savored neat, on ice, or in a lingering glass",
+        obor_rose_highlight2: "Best enjoyed neat, on ice, or in a lingering glass",
         obor_rose_highlight3: "A simple, honest, almost minimalist taste",
         natural_artisanal: "100% natural and artisanal",
         learn_more: "Learn more",
@@ -110,7 +111,8 @@ const translations = {
         sacha_inchi: "Sacha Inchi",
         sacha_production: "Sacha Inchi Production",
         sacha_seeds: "Sacha Inchi Seeds",
-        sacha_oil: "Sacha Inchi Oil"
+        sacha_oil: "Sacha Inchi Oil",
+        contact_email_text: "Our email:"
     },
     km: {
         home: "ទំព័រដើម",
@@ -165,7 +167,8 @@ const translations = {
         sacha_inchi: "សាចាអ៊ីនឈី",
         sacha_production: "ការផលិតសាចាអ៊ីនឈី",
         sacha_seeds: "គ្រាប់សាចាអ៊ីនឈី",
-        sacha_oil: "ប្រេងសាចាអ៊ីនឈី"
+        sacha_oil: "ប្រេងសាចាអ៊ីនឈី",
+        contact_email_text: "អ៊ីមែលរបស់យើង៖"
     }
 };
 

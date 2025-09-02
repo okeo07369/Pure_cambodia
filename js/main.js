@@ -59,4 +59,27 @@ document.addEventListener('DOMContentLoaded', () => {
     productCards.forEach(card => {
         productObserver.observe(card);
     });
+
+    // Popup handling
+    const overlay = document.querySelector('.popup-overlay');
+    const popup = document.querySelector('.popup');
+    const closeBtn = document.querySelector('.popup .close-btn');
+    const contactButtons = document.querySelectorAll('a[href="#contact"]');
+
+    contactButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            overlay.style.display = 'block';
+        });
+    });
+
+    closeBtn.addEventListener('click', () => {
+        overlay.style.display = 'none';
+    });
+
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            overlay.style.display = 'none';
+        }
+    });
 });
